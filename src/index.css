@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --text-color1:#7269EF;
+    --text-color2:#F7F7FF;
+    --background-color1:#F5F7FB;
+    --background-color2:#F5F7FB;
+}
+body{
+    overflow: hidden;
+}
+
+/* button section design */
+#Button{
+    margin: 10px auto;
+    text-align: center;
+    border-radius:10px;
+    transition: 0.2s linear;
+}
+#Button i{
+    padding: 10px 15px;
+}
+#Button:hover{
+    background: var(--text-color2);
+}
+#Button.active{
+    background: var(--text-color2);
+}
+#Button.active i{
+    color: var(--text-color1);
+}
+
+/* sidbar pages section design */
+#sidbar_pages {
+    background: var(--background-color1);
+    border: 1px solid var(--background-color2);
+    
+}
+#sibbarContainer{
+    transition: 0.3s linear;
+}
+
+
